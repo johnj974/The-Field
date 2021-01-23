@@ -4,20 +4,17 @@
   box-sizing: border-box;
 }
 
-.navbar {
-  /* background-color: rgb(45, 170, 141); */
+.navbar,
+#schedule {
   background-color: rgb(100, 167, 160);
 }
+
 .navbar a {
   color: white;
 }
 
-button .navbar-toggler-icon {
-  color: white;
-}
-
 #header {
-  height: 600px;
+  height: 70vh;
   background-color: aqua;
   background-image: linear-gradient(
       to right,
@@ -31,5 +28,9 @@ button .navbar-toggler-icon {
 }
 
 .poster {
-  height: 500px;
+  height: 60vh;
+}
+
+#reviews {
+  background-color: rgba(204, 204, 42);
 }
