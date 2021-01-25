@@ -36,3 +36,21 @@
 #booking {
   background-color: rgba(204, 204, 42);
 }
+
+.actor-card img {
+  margin-top: -50px;
+}
+
+.actor-card :hover {
+  background-color: rgb(100, 167, 160);
+  color: #fff;
+}
+
+@media only screen and (max-width: 992px) {
+  .actor-card {
+    margin-bottom: 40px;
+  }
+  .header-row {
+    text-align: center;
+  }
+}
