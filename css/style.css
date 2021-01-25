@@ -5,7 +5,8 @@
 }
 
 .navbar,
-#schedule {
+#schedule,
+.btn {
   background-color: rgb(100, 167, 160);
 }
 
@@ -31,6 +32,7 @@
   height: 60vh;
 }
 
-#reviews {
+#reviews,
+#booking {
   background-color: rgba(204, 204, 42);
 }
