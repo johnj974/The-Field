@@ -41,10 +41,15 @@
   margin-top: -50px;
 }
 
-.actor-card :hover {
+.actor-card {
   background-color: rgb(100, 167, 160);
   color: #fff;
 }
+
+/* .actor-card :hover {
+  background-color: rgba(204, 204, 42);
+  color: #fff;
+} */
 
 @media only screen and (max-width: 992px) {
   .actor-card {
