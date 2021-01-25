@@ -6,6 +6,7 @@
 
 .navbar,
 #schedule,
+#footer,
 .btn {
   background-color: rgb(100, 167, 160);
 }
@@ -35,6 +36,8 @@
 #reviews,
 #booking {
   background-color: rgba(204, 204, 42);
+  /* border-top: 5px solid rgb(100, 167, 160);
+  border-bottom: 5px solid rgb(100, 167, 160); */
 }
 
 .actor-card img {
