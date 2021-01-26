@@ -49,6 +49,11 @@
   color: #fff;
 }
 
+.bookFiller {
+  height: max-content;
+  background-color: aqua;
+}
+
 /* .actor-card :hover {
   background-color: rgba(204, 204, 42);
   color: #fff;
@@ -60,5 +65,8 @@
   }
   .header-row {
     text-align: center;
+  }
+  .booking-row {
+    margin: auto;
   }
 }
