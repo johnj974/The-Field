@@ -17,7 +17,6 @@
 
 #header {
   height: 70vh;
-  background-color: aqua;
   background-image: linear-gradient(
       to right,
       rgba(204, 204, 42, 0.7),
@@ -37,8 +36,6 @@
 #booking,
 #actors {
   background-color: rgba(204, 204, 42);
-  /* border-top: 5px solid rgb(100, 167, 160);
-  border-bottom: 5px solid rgb(100, 167, 160); */
 }
 
 .actor-card img {
@@ -65,6 +62,7 @@
 @media only screen and (max-width: 992px) {
   .top-card {
     margin-bottom: 40px;
+    height: 257px;
   }
   .header-row {
     text-align: center;
@@ -74,7 +72,7 @@
   }
 }
 
-@media only screen and (max-width: 562px) {
+@media only screen and (max-width: 767px) {
   .middle-card {
     margin-bottom: 40px;
   }
