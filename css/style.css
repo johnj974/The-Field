@@ -50,9 +50,8 @@
 }
 
 .card img {
-  width: 100px;
+  max-width: 100px;
   height: 100px;
-  border-radius: 50%;
   background-position: center center;
   background-size: cover;
 }
@@ -61,11 +60,6 @@
   height: max-content;
   background-color: aqua;
 }
-
-/* .actor-card :hover {
-  background-color: rgba(204, 204, 42);
-  color: #fff;
-} */
 
 @media only screen and (max-width: 992px) {
   .top-card {
